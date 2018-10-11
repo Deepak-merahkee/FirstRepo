@@ -9,7 +9,7 @@
        mode: 0644
 
 
-    - name: Executing distributed setup
+    - name: Executing distributed setup 1
       shell: sudo "/home/ubuntu/master.sh"
       async: 2400
       poll: 60
